@@ -3,6 +3,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
+import Soon from "./components/Soon/Soon";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -25,10 +26,11 @@ const App = () => {
         <div className=" fixed ml-10 z-10">
           <NavBar />
         </div>
-        <div className="">
+        <div>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="*" element={<Soon />} />
           </Routes>
         </div>
         <div className=" z-20">

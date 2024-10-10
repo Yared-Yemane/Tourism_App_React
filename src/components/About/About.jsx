@@ -289,7 +289,7 @@ const About = () => {
           <h1 className="text-3xl md:text-5xl text-white font-bold drop-shadow-md mt-16 md:mt-28">
             About Us
           </h1>
-          <NavLink to="/">
+          <NavLink to="/home">
             <div className=" text-center mt-[30px] drop-shadow-2xl w-40 h-[65px] bg-red-600 rounded-[18px] text-white font-allerta hover:bg-white hover:text-black hover:border-solid hover:border-[1px] hover:border-black">
               <button className="text-center mt-5">Back to Home</button>
             </div>
@@ -303,10 +303,8 @@ const About = () => {
             Welcome to Explore Ethiopia Tourism App
           </h2>
           <p className="mt-4 text-base md:text-lg text-gray-600 max-w-3xl mx-auto">
-            Discover the beauty, culture, and history of Ethiopia. Our app aims
-            to provide travelers with an immersive experience through
-            comprehensive guides, stunning visuals, and unique local insights
-            that highlight the richness of Ethiopian heritage.
+            We specialize in providing unforgettable experiences in Ethiopia,
+            from breathtaking landscapes to rich cultural heritage.
           </p>
         </section>
 
