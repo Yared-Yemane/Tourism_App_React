@@ -3,6 +3,7 @@ import NavBar from "../../NavBar/NavBar";
 import dayLight from "../../../assets/daylight.png";
 import { useState } from "react";
 import { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 const Intro = () => {
   // useEffect(() => {
@@ -110,12 +111,13 @@ const Intro = () => {
             the weight of ancient history and the resilience of its people
             intertwine.
           </p>
+          <NavLink to="/about">
+            <div className=" text-center ml-80 mb-20 drop-shadow-2xl w-40 h-[65px] bg-red-600 rounded-[18px] text-white font-allerta hover:bg-white hover:text-black hover:border-solid hover:border-[1px] hover:border-black">
+              <button className="text-center mt-5">Learn More</button>
+            </div>
+          </NavLink>
         </div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
+        <div className=" flex justify-center"></div>
       </div>
     </>
   );

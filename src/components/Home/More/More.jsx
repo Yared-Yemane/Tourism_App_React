@@ -1,5 +1,6 @@
 import React from "react";
 import eagle from "../../../assets/eagle.png";
+import { NavLink } from "react-router-dom";
 
 const More = () => {
   return (
@@ -45,11 +46,9 @@ const More = () => {
           tapestry of destinations that will captivate your heart and soul.
         </p>
       </div>
-      <a href="">
-        <div className="mt-12 drop-shadow-2xl w-40 h-[65px] bg-red-600 rounded-[18px] text-white font-allerta hover:bg-white hover:text-black hover:border-solid hover:border-[1px] hover:border-black">
-          <button className="text-center mt-5">Learn More</button>
-        </div>
-      </a>
+
+      
+
       <div className="absolute -top-5 -right-14 md:-top-20 lg:-top-8 md:-right-20 lg:right-14 -rotate-[65deg] w-48 md:w-48 lg:w-60 md:h-60">
         <img src={eagle} alt="Eagle" />
       </div>

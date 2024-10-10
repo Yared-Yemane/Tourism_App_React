@@ -328,7 +328,7 @@ const NavBar = () => {
               </div>
             </NavLink>
             <NavLink
-              to="/career"
+              to="/"
               className="flex-1 h-[100%] text-center hover:bg-red-700"
             >
               <div className="pt-[20%] md:pt-[25%] text-lg md:text-xl font-inter font-medium">
@@ -344,7 +344,7 @@ const NavBar = () => {
               </div>
             </NavLink>
             <NavLink
-              to="/contact"
+              to="/"
               className="flex-1 h-[100%] text-center hover:bg-red-700 rounded-tr-[20px] md:rounded-tr-[20px] md:rounded-br-[20px]"
             >
               <div className="pt-[20%] md:pt-[25%] text-lg md:text-xl font-inter font-medium">

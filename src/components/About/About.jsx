@@ -6,6 +6,7 @@ import {
   FaCameraRetro,
   FaInfoCircle,
 } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
@@ -284,10 +285,15 @@ const About = () => {
         }}
         data-aos="fade-down"
       >
-        <div className="flex items-center justify-center h-full bg-green-500 bg-opacity-30">
+        <div className="flex flex-col items-center justify-center h-full bg-green-500 bg-opacity-30">
           <h1 className="text-3xl md:text-5xl text-white font-bold drop-shadow-md mt-16 md:mt-28">
             About Us
           </h1>
+          <NavLink to="/">
+            <div className=" text-center mt-[30px] drop-shadow-2xl w-40 h-[65px] bg-red-600 rounded-[18px] text-white font-allerta hover:bg-white hover:text-black hover:border-solid hover:border-[1px] hover:border-black">
+              <button className="text-center mt-5">Back to Home</button>
+            </div>
+          </NavLink>
         </div>
       </header>
 
